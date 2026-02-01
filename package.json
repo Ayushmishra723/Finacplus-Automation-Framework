@@ -1,0 +1,16 @@
+{
+  "name": "finacplus-automation-framework",
+  "version": "1.0.0",
+  "description": "UI and API automation with Playwright (JavaScript)",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "dotenv": "^16.3.1"
+  }
+}
